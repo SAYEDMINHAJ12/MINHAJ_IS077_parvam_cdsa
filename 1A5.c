@@ -6,7 +6,10 @@ void main(){
     printf("Enter a character\n");
     scanf("%c",&ch);
     printf("Enter a string\n");
-    scanf("%s",&s);
+    scanf("%s",s);
     printf("Enter a Sentence\n");
-    scanf("%s",&sen);
+    scanf("%s",sen);
+    printf("%c\n",ch);
+    printf("%s\n",s);
+    printf("%s\n",sen);
 }
